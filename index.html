@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>ToDo List</h1>
+        </div>
+    </header>
+    <main>
+        <form id="form" onsubmit="addTask(event)">
+            <div class="add-item">
+                <h2>
+                    Add Task
+                </h2>
+                <div class="items">
+                    <input type="text" id="item" name="item" placeholder="Enter Task" required>
+                    <button type="submit" id="btn" >Submit</button>
+                </div>
+            </div>
+
+            <div class="tasks">
+                <h2>
+                    Tasks
+                </h2>
+                <div class="added-task">
+
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

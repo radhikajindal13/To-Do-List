@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.heading{
+    background-color: rgb(72, 165, 72);
+    padding: 20px;
+    padding-left: 80px;
+}
+h1{
+    font-size: 60px;
+    font-family: cursive;
+}
+.add-item{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+h2{
+    font-size: 40px;
+    font-family: cursive;
+}
+.items{
+    display: flex;
+    gap: 2rem;
+}
+#item{
+    height: 70px;
+    width: 50vw;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#btn{
+    height: 70px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 9px;
+    color: beige;
+    background-color: green;
+}
+.tasks{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.task{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(72, 165, 72);
+    width: 50vw;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.task .button-container {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 10px;  
+    width: 20%; 
+}
+
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state for Edit button */
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Style the Delete button */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state for Delete button */
+.delete-btn:hover {
+    background-color: #e53935;
+}
